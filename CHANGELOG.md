@@ -24,7 +24,7 @@
 
 - **Changed** 使用 [pinyin-data][pinyin-data] v0.6.1 的拼音数据
 - **Changed** 命令行工具移到 `cmd/pinyin/` 目录下，现在需要改为使用
-  `go get -u github.com/longbridgeapp/go-pinyin/cmd/pinyin` 来安装命令行工具。
+  `go get -u github.com/longbridge/go-pinyin/cmd/pinyin` 来安装命令行工具。
 
 ## [0.13.0] (2018-04-29)
 
@@ -84,7 +84,7 @@
 ## [0.8.0] (2016-08-19)
 
 - **Changed** use [pinyin-data](https://github.com/mozillazg/pinyin-data) v0.3.0
-  - Fixed [#13](https://github.com/longbridgeapp/go-pinyin/issues/13) . thanks [@aisq2008](https://github.com/aisq2008)
+  - Fixed [#13](https://github.com/longbridge/go-pinyin/issues/13) . thanks [@aisq2008](https://github.com/aisq2008)
   - Fixed pinyin of 罗
 
 ## [0.7.0] (2016-08-02)
@@ -102,7 +102,7 @@
   ```
 
 - **Bugfixed** 解决韵母 i, u, ü 的问题：根据以下拼音方案，还原出正确的韵母
-  [#8](https://github.com/longbridgeapp/go-pinyin/pull/8), [python-pinyin#26](https://github.com/mozillazg/python-pinyin/pull/26)
+  [#8](https://github.com/longbridge/go-pinyin/pull/8), [python-pinyin#26](https://github.com/mozillazg/python-pinyin/pull/26)
 
   > i 行的韵母，前面没有声母的时候，写成：yi（衣），yɑ（呀），ye（耶），
   > yɑo（腰），you（忧），yɑn（烟），yin（因），yɑnɡ（央），yinɡ（英），yonɡ（雍）。
@@ -152,7 +152,7 @@
 
 ## [0.3.0] (2015-12-29)
 
-- fix "当字符串中有非中文的时候，会出现下标越界的情况"(影响 `pinyin.LazyPinyin` 和 `pinyin.Slug` ([#1](https://github.com/longbridgeapp/go-pinyin/issues/1)))
+- fix "当字符串中有非中文的时候，会出现下标越界的情况"(影响 `pinyin.LazyPinyin` 和 `pinyin.Slug` ([#1](https://github.com/longbridge/go-pinyin/issues/1)))
 - 调整对非中文字符的处理：当遇到没有拼音的字符时，直接忽略
 
   ```go

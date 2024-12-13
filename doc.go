@@ -7,7 +7,7 @@ Usage
 
 	import (
 		"fmt"
-		"github.com/longbridgeapp/go-pinyin"
+		"github.com/longbridge/go-pinyin"
 	)
 
 	func main() {
