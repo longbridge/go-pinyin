@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/longbridgeapp/go-pinyin"
+	"github.com/longbridge/go-pinyin"
 	"github.com/mattn/go-isatty"
 )
 

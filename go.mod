@@ -1,8 +1,8 @@
-module github.com/longbridgeapp/go-pinyin
+module github.com/longbridge/go-pinyin
 
-go 1.13
+go 1.18
 
 require (
 	github.com/mattn/go-isatty v0.0.10
-	github.com/yanyiwu/gojieba v1.1.0
+	github.com/yanyiwu/gojieba v1.4.4
 )

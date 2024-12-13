@@ -3,7 +3,7 @@ package pinyin_test
 import (
 	"fmt"
 
-	"github.com/longbridgeapp/go-pinyin"
+	"github.com/longbridge/go-pinyin"
 )
 
 func ExampleConvert() {
